@@ -25,13 +25,11 @@
   }
   
   .container1{
-    /* background-color: blue; */
     height: 50%;
     width: 90%;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     gap: 15px;
 
 

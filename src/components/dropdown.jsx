@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaAngleDown } from "react-icons/fa";
-import './Dropdown.css'; // Import your CSS file for styling
+import './Dropdown.css'; 
 
 const CustomDropdown = ({ options, onSelect,placeholder }) => {
   const [isOpen, setIsOpen] = useState(false);

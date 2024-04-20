@@ -1,4 +1,3 @@
-// InputCard.js
 import React, { useState } from 'react';
 import './Card.css';
 import { Input } from './Input';
