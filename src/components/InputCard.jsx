@@ -5,7 +5,7 @@ import CustomDropdown from './dropdown'
 import { Button } from './Button'
 import { FaLocationDot, FaInstagram, FaPinterest } from 'react-icons/fa6'
 import { FaFacebook } from 'react-icons/fa'
-import bull from './bull.png'
+import imgBull from '../images/bull.png'
 import axios from 'axios'
 
 export const InputCard = () => {
@@ -161,7 +161,7 @@ export const InputCard = () => {
                     >
                         powered by
                         <img
-                            src={bull}
+                            src={imgBull}
                             style={{ height: '28px', width: '28px' }}
                         />
                     </div>

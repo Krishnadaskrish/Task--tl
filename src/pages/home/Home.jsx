@@ -1,7 +1,7 @@
 import React from 'react'
 import { InputCard } from '../../components/InputCard'
 import './Home.css'
-import bull from '../../components/bull.png'
+import imgBull from '../../images/bull.png'
 import { Carousel } from '../../components/Carousel'
 
 export const Home = () => {
@@ -19,11 +19,14 @@ export const Home = () => {
                         style={{
                             fontWeight: 'bolder',
                             fontFamily: 'sans-serif',
+                            textShadow: '0 0 6px black', // Adding a black shadow around the text
+    
+
                         }}
                     >
                         TL TECHNOLEGIES PVT LTD
                     </h1>
-                    <img src={bull} className="icon" />
+                    <img src={imgBull} className="icon" />
                 </div>
                 <div className="content-container">
                     <div className="carousal-container">
