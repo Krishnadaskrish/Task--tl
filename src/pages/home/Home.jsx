@@ -19,7 +19,7 @@ export const Home = () => {
                         style={{
                             fontWeight: 'bolder',
                             fontFamily: 'sans-serif',
-                            textShadow: '0 0 6px black', // Adding a black shadow around the text
+                            textShadow: '0 0 6px black',
     
 
                         }}
